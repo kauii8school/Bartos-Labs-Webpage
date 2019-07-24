@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Oswald';
+    color: #FFFAFF;
+    background-color: #333
+}
+* {box-sizing: border-box;}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #FFFAFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #071C2B;
+    color: #FFFAFF;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+</style>
+
+<div class="container-nav">
+    <div id="navbar">
+        <a href="home.htm">Home</a>
+        <a href="research.htm">Research</a>
+        <a class="active" href="javascript:void(0)">Members</a>
+        <a href="publications.htm">Publications</a>
+        <a href="news.htm">News</a>
+        <a href="calender.htm">Calender</a>
+        <a href="contact.htm">Contact</a>
+        <a href="wiki.htm">Wiki</a>
+    </div>
+</div>
+
+</html>

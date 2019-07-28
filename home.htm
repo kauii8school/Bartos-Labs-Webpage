@@ -3,21 +3,14 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body style="margin: 0px">
 
-<div class="bg-img">
-        <div class="container-imtext1">
-            <div class="imtext">
-                <h1 style="font-size: 80px; color: #FFFAFF;"><strong>Bartos</strong> Group</h1>    
-            </div>
-
-            <div class="container-imtext2">
-                    <h1 style="font-size: 30px; color: #FFFAFF;">University Of Florida</h1> 
-            </div>
-    
-
+<div class="bg-img" style="background-image: url('images/planet_galaxy_universe_121293_1920x1080.jpg');">
+        <div class="container">
+          <span class="text1"><span style="color: #A31FE0;">Bartos</span>Group </span><br>
+          <span class="text2">University of Florida </span>
         </div>
 
         <div class="container-nav">
@@ -38,38 +31,46 @@
                 <a href="news.htm">News</a>
                 <a href="calender.htm">Calender</a>
                 <a href="wiki.htm">Wiki</a>
-            </div>
+                <a href="https://www.phys.ufl.edu/wp/" style="float:left"><img src="images/UF-logo.png" style="position: -webkit-sticky; position: sticky; left: 0%; width: 60px; float:left"/></a>
+              </div>
         </div>
 </div>
 
-<script>
-    window.onscroll = function() {myFunction()};
+<script src="js/scroll.js"></script>
+
     
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-    </script>
+<div class="row">
+  <div class="column">
+    <h2>Research</h2>
+    <p style="line-height: 2;">Our group's research is centered around multimessenger astrophysics<br>
+      which combines multiple cosmic messengers (e.g. gravitational waves<br>
+      gamma ray bursts, neutrinos) to understand more from astrophysical <br>
+      phenomena. We have done work in collaboration with LIGO and IceCube.  <br>
+      We study colliding black holes, neutron star mergers, and high energy<br>
+      gamma ray bursts. INSERT MORE TEXT HERE.
+
+    </p>
+  </div>
+  <div class="column">
+    <h2>Recent News</h2>
+    <ul>
+      <li style="font-size: 25px"><strong>May 8, 2019 - </strong><a href="https://www.sciencenews.org/article/what-near-earth-kilonova-would-look-like"><a>
+          What a nearby kilonova would look like</a><br>If two dense neutron stars collided relatively close to Earth, the resulting kilonova <br>would
+           shine day and night with the brightness of the moon squeezed into a small dot.<br>
+            Physicists imagined what we’d see if two neutron stars merged 1,000 light-years <br>
+            from Earth
+        </li>
+       <li style="font-size: 25px"><strong>May 2, 2019 - </strong><a href="https://www.sciencedaily.com/releases/2019/05/190502104805.htm">Two neutron
+        stars collided near the solar system billions of years ago</a><br>Astrophysicists Szabolcs Márka at Columbia University and Imre Bartos (GSAS'12)<br>
+         at the University of Florida have identified a violent collision of two neutron stars 4.6 <br> billion years ago as the likely source of some of
+         the most coveted matter on Earth.</li>
+    </ul>
+  </div>
+</div>
 
 
-
-<div id="col_short">
-  <h3 style="color: #418EC9">Sample Heading 1</h3>
-  <p>The navbar will stick to the top when you reach its scroll position.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <h3 style="color: #418EC9">Sample Heading 2</h3>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<div class="footer">  
+    <p>Copyright © 2018 All rights reserved.</p>  
 </div>
 
 

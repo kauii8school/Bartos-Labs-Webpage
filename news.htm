@@ -3,20 +3,82 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body style="margin: 0px">
 
-<div class="container-nav">
-    <div id="navbar">
-        <a href="home.htm">Home</a>
-        <a href="research.htm">Research</a>
-        <a href="members.htm">Members</a>
-        <a href="publications.htm">Publications</a>
-        <a class="active" href="javascript:void(0)">News</a>
-        <a href="calender.htm">Calender</a>
-        <a href="contact.htm">Contact</a>
-        <a href="wiki.htm">Wiki</a>
-    </div>
+<div class="bg-img">
+        <div class="container">
+          <span class="text1"><span style="color: #A31FE0;">Bartos</span>Group </span><br>
+          <span class="text2">University of Florida </span>
+        </div>
+
+        <div class="container-nav">
+            <div id="navbar">
+                <a href="home.htm">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Research 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div> 
+                <a href="members.htm">Members</a>
+                <a href="publications.htm">Publications</a>
+                <a class="active" href="javascript:void(0)">News</a>
+                <a href="calender.htm">Calender</a>
+                <a href="wiki.htm">Wiki</a>
+                <a href="https://www.phys.ufl.edu/wp/" style="float:left"><img src="UF-logo.png" style="position: -webkit-sticky; position: sticky; left: 0%; width: 60px; float:left"/></a>
+              </div>
+        </div>
 </div>
 
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>
+
+<div class="row">
+  <div class="column">
+    <h2>Research</h2>
+    <p style="line-height: 2;">Our group's research is centered around multimessenger astrophysics<br>
+      which combines multiple cosmic messengers (e.g. gravitational waves<br>
+      gamma ray bursts, neutrinos) to understand more from astrophysical <br>
+      phenomena. We have done work in collaboration with LIGO and IceCube.  <br>
+      We study colliding black holes, neutron star mergers, and high energy<br>
+      gamma ray bursts. INSERT MORE TEXT HERE.
+
+    </p>
+  </div>
+  <div class="column">
+    <h2>Recent News</h2>
+    <ul>
+      <li style="font-size: 25px"><strong>May 2, 2019 - </strong><a href="https://www.sciencedaily.com/releases/2019/05/190502104805.htm">Two neutron
+      stars collided near the solar system billions of years ago</a><br>Astrophysicists Szabolcs Márka at Columbia University and Imre Bartos (GSAS'12)<br>
+       at the University of Florida have identified a violent collision of two neutron stars 4.6 <br> billion years ago as the likely source of some of
+       the most coveted matter on Earth.</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+    <div style="text-align:center">    
+    </div>
+  <p>Copyright © 2018 All rights reserved.</p>
+</footer>
+
+</body>
 </html>

@@ -2,78 +2,41 @@
 <html>
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-body {
-    height: 100%;
-    margin: 0;
-    font-size: 28px;
-    font-family: 'Oswald';
-    color: #FFFAFF;
-    background-color: #333
-}
-* {box-sizing: border-box;}
-
-.header {
-    background-color: #f1f1f1;
-    padding: 0px;
-    text-align: center;
-    font-family: 'Oswald';
-}
-
-#navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  #navbar a {
-    float: left;
-    display: block;
-    color: #FFFAFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  #navbar a.active {
-    background-color: #071C2B;
-    color: #FFFAFF;
-  }
-  
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
-  }
-
-</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script>src="js/scroll.js"</script>
+</head>
+<body style="margin: 0px">
 
 <div class="container-nav">
     <div id="navbar">
         <a href="home.htm">Home</a>
-        <a href="research.htm">Research</a>
+        <div class="dropdown">
+            <button class="dropbtn">Research 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
         <a class="active" href="javascript:void(0)">Members</a>
         <a href="publications.htm">Publications</a>
         <a href="news.htm">News</a>
         <a href="calender.htm">Calender</a>
-        <a href="contact.htm">Contact</a>
         <a href="wiki.htm">Wiki</a>
-    </div>
+        <a href="https://www.phys.ufl.edu/wp/" style="float:left"><img src="images/UF-logo.png" style="position: -webkit-sticky; position: sticky; left: 0%; width: 60px; float:left"/></a>
+      </div>
 </div>
+<script src="js/scroll.js"></script>
 
+
+
+
+<h2 class="title">Bartos Group Schedule</h2>
+
+
+
+</body>
 </html>

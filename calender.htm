@@ -3,20 +3,45 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+<body style="margin: 0px">
 
 <div class="container-nav">
     <div id="navbar">
         <a href="home.htm">Home</a>
-        <a href="research.htm">Research</a>
+        <div class="dropdown">
+            <button class="dropbtn">Research 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
         <a href="members.htm">Members</a>
         <a href="publications.htm">Publications</a>
         <a href="news.htm">News</a>
         <a class="active" href="javascript:void(0)">Calender</a>
-        <a href="contact.htm">Contact</a>
         <a href="wiki.htm">Wiki</a>
-    </div>
+        <a href="https://www.phys.ufl.edu/wp/" style="float:left"><img src="images/UF-logo.png" style="position: -webkit-sticky; position: sticky; left: 0%; width: 60px; float:left"/></a>
+      </div>
 </div>
 
+<script src="js/scroll.js"></script>
+
+<div class="one" style="margin:10%">
+  <h2 class="title">Bartos Group Schedule</h2>
+  <p><!--[google-calendar-events id="2" type="ajax" title="Schedule"]--></p>
+  <p><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bartosgroupuf%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="100%" height="800px" frameborder="0" scrolling="no"></iframe></p>
+</div>  
+
+<div class="footer">  
+    <p>Copyright © 2018 All rights reserved.</p>  
+</div>
+
+
+
+</body>
 </html>

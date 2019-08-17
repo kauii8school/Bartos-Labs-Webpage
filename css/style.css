@@ -141,7 +141,6 @@ a:hover {
   width: 100%;
 }
 
-
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -284,7 +283,7 @@ img.sticky {
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #418EC9; /* Green */
   border: none;
   color: white;
   padding: 16px 32px;
@@ -300,11 +299,13 @@ img.sticky {
 
 .button1 {
   background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
+  position: absolute;
+  color: black;
+  left: 1300px;
+  border: 2px solid #418EC9;
 }
 
 .button1:hover {
-  background-color: #4CAF50;
+  background-color: #419C79;
   color: white;
 }

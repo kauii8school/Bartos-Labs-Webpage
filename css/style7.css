@@ -53,6 +53,14 @@
 	opacity: 0;
 }
 
+.ch-img-IB { 
+	background-image: url(../images/IB.jpg);
+}
+
+.ch-img-NG { 
+	background-image: url(../images/NG.jpg);
+}
+
 .ch-img-1 { 
 	background-image: url(../images/19.jpg);
 }

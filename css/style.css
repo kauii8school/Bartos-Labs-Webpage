@@ -2,6 +2,7 @@ body {
     height: 100%;
     margin: 0px;
     font-size: 28px;
+    padding:0;
     font-family: 'Oswald';
     background-color: #464646;
     color: #FFFAFF;
@@ -26,15 +27,11 @@ h3 {
 a {
   font-family: 'Oswald';
   color: #418EC9;
-  font-size: 30px
-  background-color: #333;
   text-decoration: none;
 }
 a:hover {
   font-family: 'Oswald';
   color: #419C79;
-  font-size: 30px
-  background-color: #333;
 }
 .header {
     background-color: #f1f1f1;
@@ -42,13 +39,25 @@ a:hover {
     text-align: center;
 }
 
-.footer {
-  left: 0;
-  bottom: 0;
+#footer{
   width: 100%;
+  height: 280px;
   background-color: rgb(128, 128, 128);
-  color: white;
-  text-align: center;
+  margin-top: 300px;
+  position: relative;
+  clear: both;
+}
+
+.img-with-text {
+  text-align: justify;
+  margin: 10px;
+  font-size: 17px;
+  width: 100px;
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
 }
 
 .row {
@@ -153,7 +162,7 @@ a:hover {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 23px;
 }
 
 #navbar a:hover {
@@ -166,65 +175,14 @@ a:hover {
   color: #FFFAFF;
 }
 
-.dropdown {
-  float: right;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: #ddd;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #ddd;
-  color:black
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ddd;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: right;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 .sticky {
   position: fixed;
-  top: 0;
   z-index: 5;
+  top: 0;
   width: 100%;
 }
 
 .sticky + .content {
-  padding-top: 60px;
-}
-
-.sticky + .dropdown-content {
   padding-top: 60px;
 }
 
@@ -259,7 +217,6 @@ img.sticky {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
   top: 10%; /* Stay at the top */
   left: 80%;
   background-color: #464646; /* Black */
@@ -308,4 +265,23 @@ img.sticky {
 .button1:hover {
   background-color: #419C79;
   color: white;
+}
+
+.content {
+  margin-left:5%;
+  width: 45%;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.content img {
+  margin-right: 15px;
+  float: left;
+}
+
+.content h3,
+.content p{
+  margin-left: 15px;
+  display: block;
+  margin: 2px 0 0 0;
 }

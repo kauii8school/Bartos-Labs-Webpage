@@ -3,34 +3,34 @@ body {
     margin: 0px;
     font-size: 20px;
     padding:0;
-    font-family: 'Oswald';
-    background-color: #464646;
-    color: #FFFAFF;
+    font-family: 'Oswald', sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 * {box-sizing: border-box;
   white-space:nowrap;}
 
 h1 {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   color: #418EC9;
 }
 h2 {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   color: #418EC9;
 
 }
 h3 {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   color: #418EC9;
 
 }
 a {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   color: #418EC9;
   text-decoration: none;
 }
 a:hover {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   color: #419C79;
 }
 .header {
@@ -219,7 +219,7 @@ img.sticky {
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   top: 10%; /* Stay at the top */
   left: 80%;
-  background-color: #464646; /* Black */
+  background-color: rgb(255, 255, 255); 
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -229,7 +229,7 @@ img.sticky {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #FFFAFF;
+  color: rgb(0, 0, 0);
   display: block;
 }
 
@@ -261,8 +261,20 @@ img.sticky {
   left: 1300px;
   border: 2px solid #418EC9;
 }
+.button2 {
+  background-color: white; 
+  position: absolute;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  left: 850px;
+  border: 2px solid #418EC9;
+}
 
 .button1:hover {
+  background-color: #419C79;
+  color: white;
+}
+.button2:hover {
   background-color: #419C79;
   color: white;
 }
@@ -285,3 +297,71 @@ img.sticky {
   display: block;
   margin: 2px 0 0 0;
 }
+
+
+/* News-Post stuff */
+.post-title h2.title a:hover {
+	color: #419C79;
+}
+
+.post-info div.date {
+	background-color: #418EC9;
+}
+.post {
+  margin: 0 0 40px 0;
+  margin-left: 2%;
+  margin-bottom: 100px;
+	padding: 0 0 40px 0;
+	overflow: hidden;
+}
+
+.post-title h2.title{
+	margin: 0;
+}
+.post-title h2.title, .post-title h2.title a {
+	color: #418EC9;
+	font-size:22px;
+}
+.post h3.title{
+	margin-bottom: 0;
+	line-height: 27px;
+}
+.post-media {
+    margin-bottom: 20px;
+}
+.post-info {
+	float: left;
+	width: 100px;
+}
+.post-info div {
+	width: 65px;
+	z-index: 9;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.post-info div.date {
+	color: #FFFFFF;
+	padding: 8px 0;
+}
+.post-info div.date span {
+    display: block;
+}
+.post-info div.date span.day {
+	font-size: 27px;
+	letter-spacing: 0px;
+	margin-top: 2px;
+	line-height: 33px;
+}
+.post-info div.date span.month {
+    font-size: 13px;
+    line-height: 11px;
+}
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+#more5 {display: none;}
+#more6 {display: none;}
+#more7 {display: none;}
+#more8 {display: none;}

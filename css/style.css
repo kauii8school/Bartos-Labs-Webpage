@@ -1,14 +1,14 @@
 body {
     height: 100%;
+    overflow-x:hidden;
     margin: 0px;
-    font-size: 20px;
+    font-size: 24px;
     padding:0;
     font-family: 'Oswald', sans-serif;
     background-color: #FFFFFF;
     color: #000000;
 }
-* {box-sizing: border-box;
-  white-space:nowrap;}
+* {box-sizing: border-box;}
 
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -22,7 +22,6 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
   color: #418EC9;
-
 }
 a {
   font-family: 'Oswald', sans-serif;
@@ -44,6 +43,7 @@ a:hover {
   height: 280px;
   background-color: rgb(128, 128, 128);
   margin-top: 300px;
+  overflow: hidden;
   position: relative;
   clear: both;
 }
@@ -143,7 +143,6 @@ a:hover {
   }  
 }
 
-/* Position the navbar container inside the image */
 .container-nav {
   position: relative;
   margin: 0px;
@@ -151,6 +150,7 @@ a:hover {
 }
 
 #navbar {
+  z-index: 5;
   overflow: hidden;
   background-color: #333;
 }
@@ -254,19 +254,12 @@ img.sticky {
   cursor: pointer;
 }
 
-.button1 {
-  background-color: white; 
-  position: absolute;
-  color: black;
-  left: 1300px;
-  border: 2px solid #418EC9;
-}
 .button2 {
   background-color: white; 
   position: absolute;
   color: black;
   font-family: 'Oswald', sans-serif;
-  left: 850px;
+  left: 50%;
   border: 2px solid #418EC9;
 }
 
@@ -365,3 +358,22 @@ img.sticky {
 #more6 {display: none;}
 #more7 {display: none;}
 #more8 {display: none;}
+
+/* Wrappers */
+#wrapper {
+	width: 100%;
+}
+.content-wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+}	
+
+#header-wrapper {
+}	
+
+.clear:after {
+  clear: both;
+  content: "";
+  display: block;
+}

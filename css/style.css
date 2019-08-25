@@ -11,6 +11,44 @@ body {
 }
 * {box-sizing: border-box;}
 
+.super {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+.home-super {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+@media (max-width:1100px) {
+  .super {
+    margin-left:0;
+    margin-right:0;
+    margin-top: 10%;
+  }
+}
+
+@media (max-width:800px) {
+  .super {
+    margin-left:0;
+    margin-right:0;
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 3000px) {
+  .home-super {
+    margin-left:0;
+    margin-right:0;
+  }
+}
+
+
+
 h1 {
   font-family: 'Oswald', sans-serif;
   color: #418EC9;

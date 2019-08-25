@@ -1,7 +1,8 @@
 body {
     height: 100%;
     overflow-x:hidden;
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 24px;
     padding:0;
     font-family: 'Oswald', sans-serif;
@@ -50,9 +51,9 @@ a:hover {
 
 .img-with-text {
   text-align: justify;
-  margin: 10px;
+  margin: 1%;
   font-size: 17px;
-  width: 100px;
+  width: 5%;
 }
 
 .img-with-text img {
@@ -162,7 +163,7 @@ a:hover {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 30px;
 }
 
 #navbar a:hover {

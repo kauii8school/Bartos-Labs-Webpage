@@ -1,8 +1,6 @@
 body {
     height: 100%;
     overflow-x:hidden;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 24px;
     padding:0;
     font-family: 'Oswald', sans-serif;
@@ -24,30 +22,14 @@ body {
   margin-bottom: 2%;
 }
 
-@media (max-width:1100px) {
+@media (max-width: 1100px){
   .super {
-    margin-left:0;
-    margin-right:0;
-    margin-top: 10%;
+   margin:0px;
+  }
+  .sticky {
+    width: 10%
   }
 }
-
-@media (max-width:800px) {
-  .super {
-    margin-left:0;
-    margin-right:0;
-    margin-top: 30%;
-  }
-}
-
-@media (max-width: 3000px) {
-  .home-super {
-    margin-left:0;
-    margin-right:0;
-  }
-}
-
-
 
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -291,6 +273,20 @@ img.sticky {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
+}
+
+.button1 {
+  margin: auto;
+  text-align:center;
+  background-color: white; 
+  position: absolute;
+  color: black;
+  border-radius: 1vw;
+  font-family: 'Oswald', sans-serif;
+  border: .1vw solid #418EC9;
+  font-size: 1vw;
+  width: 20vw;
+  height: 6vw;
 }
 
 .button2 {

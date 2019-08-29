@@ -167,7 +167,8 @@ a:hover {
 .container-nav {
   position: relative;
   margin: 0px;
-  width: 100%;
+  left: 10%;
+  width: 80%;
 }
 
 #navbar {
@@ -200,7 +201,8 @@ a:hover {
   position: fixed;
   z-index: 5;
   top: 0;
-  width: 100%;
+  left: 10%;
+  width: 80%;
 }
 
 .sticky + .content {

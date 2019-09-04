@@ -8,19 +8,17 @@
 </head>
 
 <body style="margin: 0 auto">
-  <div class="container-nav">
-    <div id="navbar">
-        <a href="news.htm">News</a>
-        <a href="medias.htm">Media</a>
-        <a href="research.htm">Research</a>
-        <a href="members.htm">Members</a>
-        <a class="active" href="javascript:void(0)">Publications</a>
-        <a href="homepage.htm">Home</a>
-        <a href="https://www.phys.ufl.edu/wp/" style="float:left"><img src="images/UF-logo-2.png"
-                style="position: -webkit-sticky; position: sticky; width: 150px; float:left" /></a>
-    </div>
-</div>
-  <script src="js/scroll.js"></script>
+  <div id="navbar">
+    <a href="news.htm">News</a>
+    <a href="medias.htm">Media</a>
+    <a href="researchpage.htm">Research</a>
+    <a href="members.htm">Members</a>
+    <a class="active" href="javascript:void(0)">Publications</a>
+    <a href="homepage.htm">Home</a>
+    <a href="https://www.phys.ufl.edu/wp/" style="float:left"><img src="images/UF-logo-2.png"
+        style="position: -webkit-sticky; position: sticky; width: 150px; float:left" /></a>
+  </div>
+  <script src="js/dropdown.js"></script>
 
   <div class="sidenav">
     <a href="#2019">2019</a>
@@ -42,30 +40,17 @@
 
   <div class="super">
 
-    <h1 style="margin-top:5%;">Publications</h1>
-    <div style="margin-left:0%">
-      <a href="selectpub.htm">
-        <div class="button button1">
-          Selected Publications
+    <p>
+      <h1 style="display: inline-block">PrePrints</h1>
+      &nbsp; &nbsp; &nbsp; &nbsp;
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">PrePrints</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="publication.htm">All Publications</a>
+          <a href="selectpub.htm">Selected Publications</a>
         </div>
-      </a>
-    </div>
-
-    <div style="margin-left:30%">
-      <a href="publication.htm">
-        <div class="button button1">
-          All Publications
-        </div>
-      </a>
-    </div>
-
-    <div style="margin-left:60%">
-      <a href="preprint.htm">
-        <div class="button button1">
-          Preprints
-        </div>
-      </a>
-    </div>
+      </div>
+    </p>
 
 
     <br>
@@ -83,11 +68,11 @@
             <span style="color:#419C79">
               <strong>
                 <a href="https://arxiv.org/abs/1908.09832">
-                  Gravitational-wave follow-up with CTA after the detection of GRBs in the TeV energy domain  
+                  Gravitational-wave follow-up with CTA after the detection of GRBs in the TeV energy domain
                   <br></a>
               </strong>
             </span>
-              
+
             I. Bartos, K.R. Corley, N. Gupte, N. Ash, Z. Marka, S. Marka <br>
             arXiv 1908.09832 (2019)
 

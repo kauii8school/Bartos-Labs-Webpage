@@ -9,64 +9,40 @@
 
 <body style="margin: 0 auto">
 
-    <div class="container-nav">
-        <div id="navbar">
-            <a href="news.htm">News</a>
-            <a href="medias.htm">Media</a>
-            <a href="research.htm">Research</a>
-            <a href="members.htm">Members</a>
-            <a class="active" href="javascript:void(0)">Publications</a>
-            <a href="homepage.htm">Home</a>
-            <a href="https://www.phys.ufl.edu/wp/" style="float:left"><img src="images/UF-logo-2.png"
-                    style="position: -webkit-sticky; position: sticky; width: 150px; float:left" /></a>
-        </div>
+    <div id="navbar">
+        <a href="news.htm">News</a>
+        <a href="medias.htm">Media</a>
+        <a href="researchpage.htm">Research</a>
+        <a href="members.htm">Members</a>
+        <a class="active" href="javascript:void(0)">Publications</a>
+        <a href="homepage.htm">Home</a>
+        <a href="https://www.phys.ufl.edu/wp/" style="float:left"><img src="images/UF-logo-2.png"
+                style="position: -webkit-sticky; position: sticky; width: 150px; float:left" /></a>
     </div>
-    <script src="js/scroll.js"></script>
+    <script src="js/dropdown.js"></script>
 
     <div class="sidenav">
         <a href="#2019">2019</a>
         <a href="#2018">2018</a>
         <a href="#2017">2017</a>
-        <a href="#2016">2016</a>
         <a href="#2015">2015</a>
-        <a href="#2014">2014</a>
-        <a href="#2013">2013</a>
-        <a href="#2012">2012</a>
         <a href="#2011">2011</a>
-        <a href="#2010">2010</a>
-        <a href="#2009">2009</a>
-        <a href="#2008">2008</a>
-        <a href="#2007">2007</a>
-        <a href="#2006">2006</a>
         <a href="#2005">2005</a>
     </div>
 
     <div class="super">
 
-        <h1 style="margin-top:5%;">Publications</h1>
-        <div style="margin-left:0%">
-            <a href="selectpub.htm">
-                <div class="button button1">
-                    Selected Publications
+        <p>
+            <h1 style="display: inline-block">Selected Publications</h1>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Selected Publications</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="preprint.htm">PrePrints</a>
+                    <a href="publication.htm">All Publications</a>
                 </div>
-            </a>
-        </div>
-
-        <div style="margin-left:30%">
-            <a href="publication.htm">
-                <div class="button button1">
-                    All Publications
-                </div>
-            </a>
-        </div>
-
-        <div style="margin-left:60%">
-            <a href="preprint.htm">
-                <div class="button button1">
-                    Preprints
-                </div>
-            </a>
-        </div>
+            </div>
+        </p>
 
 
         <br>
